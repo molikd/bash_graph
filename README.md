@@ -6,6 +6,6 @@ if you'd like to test this code: source the graph.sh file and then create a vari
 ```
 source graph.sh 
 graph="graph"
-graph_insert graph key value
-graph_edge graph key key
+graph_insert $graph $key $value
+graph_edge $graph $key $key
 ```
