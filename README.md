@@ -4,8 +4,7 @@ Please don't ever use this, this is for demonstration only, if you're actually t
 if you'd like to test this code: source the graph.sh file and then create a varible (with a unique string) which will be the graph, you can then call the functions, passing the graph to the functions. 
 
 ```
-source graph.sh 
-graph="graph"
+graph=`source graph.sh`
 graph_insert $graph $key $value
 graph_edge $graph $key $key
 ```
